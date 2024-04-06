@@ -1,7 +1,40 @@
- header {
+ body {
+   margin: 20px;
+ }
+
+header {
     margin-top: 100px;
  }
 
  header p {
-    font-size: 50px;
+    font-size: 40px;
+ }
+
+ table {
+    border-collapse: collapse;
+    table-layout: auto;
+ }
+ 
+ #tableHeader {
+    font-size: 40px;
+ }
+ 
+ * th, td {
+    margin:0;
+ }
+
+ * td{
+   border: solid 2px black;
+ }
+
+ .time {
+   font-size: 30px;
+ }
+
+ .description {
+   width: 50em;
+ }
+
+ .input {
+   width: 98%;
  }

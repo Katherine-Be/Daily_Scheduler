@@ -12,55 +12,59 @@
     </header>
 
     <table>
-        <tr>
-          <th>Time</th>
-          <th>Event</th>
+        <tr id="tableHeader">
+          <th class="time">Time</th>
+          <th class="description">Event</th>
           <th>Save</th>
         </tr>
         <tr id="9am">
-          <td>9am</td>
-          <td id="9am event"></td>
+          <td class="time">&nbsp;&nbsp;9am</td>
+          <td class="description" id="9am event" ><input type="text" class="input" /></td>
           <td>Save</td>
         </tr>
         <tr id="10am">
-            <td>10am</td>
-            <td id="10am event"></td>
+            <td class="time">10am</td>
+            <td class="description" id="10am event"><input type="text" class="input" /></td>
             <td>Save</td>
         </tr>
         <tr id="11am">
-            <td>11am</td>
-            <td id="11am event"></td>
+            <td class="time">11am</td>
+            <td class="description" id="11am event"><input type="text" class="input" /></td>
             <td>Save</td>
         </tr>
         <tr id="12pm">
-            <td>12pm</td>
-            <td id="12pm event"></td>
+            <td class="time">12pm</td>
+            <td class="description" id="12pm event"><input type="text" class="input" /></td>
             <td>Save</td>
         </tr>
         <tr id="1pm">
-            <td>1pm</td>
-            <td id="1pm event"></td>
+            <td class="time">&nbsp;&nbsp;1pm</td>
+            <td class="description" id="1pm event"><input type="text" class="input" /></td>
             <td>Save</td>
         </tr>
         <tr id="2pm">
-            <td>2pm</td>
-            <td id="2pm event"></td>
+            <td class="time">&nbsp;&nbsp;2pm</td>
+            <td class="description" id="2pm event"><input type="text" class="input" /></td>
             <td>Save</td>
         </tr>
         <tr id="3pm">
-            <td>3pm</td>
-            <td id="3pm event"></td>
+            <td class="time">&nbsp;&nbsp;3pm</td>
+            <td class="description" id="3pm event"><input type="text" class="input" /></td>
             <td>Save</td>
         </tr>
         <tr id="4pm">
-            <td>4pm</td>
-            <td id="4pm event"></td>
+            <td class="time">&nbsp;&nbsp;4pm</td>
+            <td class="description" id="4pm event"><input type="text" class="input" /></td>
             <td>Save</td>
         </tr>
         <tr id="5pm">
-            <td>5pm</td>
-            <td id="5pm event"></td>
+            <td class="time">&nbsp;&nbsp;5pm</td>
+            <td class="description" id="5pm event"><input type="text" class="input" /></td>
             <td>Save</td>
         </tr>
       </table>
-</body>
+      
+      <script src="path/to/dayjs/dayjs.min.js"></script>
+      <script>dayjs().format()</script>
+  </body>
+  </html>

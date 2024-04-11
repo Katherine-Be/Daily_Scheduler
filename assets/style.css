@@ -10,31 +10,26 @@ header {
     font-size: 40px;
  }
 
- table {
-    border-collapse: collapse;
-    table-layout: auto;
- }
+
  
  #tableHeader {
-    font-size: 40px;
+    font-size: 35px;
  }
  
  * th, td {
     margin:0;
+    padding-bottom: 1rem
  }
 
  * td{
    border: solid 2px black;
  }
 
- .time {
-   font-size: 30px;
- }
 
- .description {
-   width: 50em;
- }
 
  .input {
-   width: 98%;
- }
+  border: 1px solid #2519ad;
+  font-family: inherit;
+  font-size: inherit;
+  padding: 1px 6px;
+}

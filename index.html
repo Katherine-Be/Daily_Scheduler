@@ -26,8 +26,8 @@
 
   <body>
     <header class="p-5 mb-4">
-      <h1 class="display-3">Work Day Scheduler</h1>
-      <p class="lead">A simple calendar app for scheduling your work day</p>
+      <h1 class="display-3">Workday Itinerary</h1>
+      <p class="lead">Daily schedule of events</p>
       <p id="currentDay" class="lead"></p>
     </header>
 
@@ -41,63 +41,99 @@
           <td class="time" >&nbsp;&nbsp;9am</td>
           <td class="description" id="9am event" rows="3">
             <span class="input" role="textbox" contenteditable>Tap to add an event description</span></td>
-          <td class="save">Save</td>
+          <td class="save">
+            <button class="btn saveBtn col-2 col-md-1" aria-label="save">
+              <i class="fas fa-save" aria-hidden="true"></i>
+            </button>
+          </td>
         </tr>
         <tr id="10am" class="row">
-            <td class="time">10am</td>
-            <td class="description" id="10am event" rows="3">
-              <span class="input" role="textbox" contenteditable>Tap to add an event description</span>
-            </td>
-            <td class="save">Save</td>
+          <td class="time">10am</td>
+          <td class="description" id="10am event" rows="3">
+            <span class="input" role="textbox" contenteditable>Tap to add an event description</span>
+          </td>
+          <td class="save">
+            <button class="btn saveBtn col-2 col-md-1" aria-label="save">
+              <i class="fas fa-save" aria-hidden="true"></i>
+            </button>
+          </td>
         </tr>
         <tr id="11am" class="row">
-            <td class="time">11am</td>
-            <td class="description" id="11am event" rows="3">
-              <span class="input" role="textbox" contenteditable>Tap to add an event description</span>
-            </td>
-            <td class="save">Save</td>
+          <td class="time">11am</td>
+          <td class="description" id="11am event" rows="3">
+            <span class="input" role="textbox" contenteditable>Tap to add an event description</span>
+          </td>
+          <td class="save">
+            <button class="btn saveBtn col-2 col-md-1" aria-label="save">
+              <i class="fas fa-save" aria-hidden="true"></i>
+            </button>
+          </td>
         </tr>
         <tr id="12pm" class="row">
-            <td class="time">12pm</td>
-            <td class="description" id="12pm event" rows="3">
-              <span class="input" role="textbox" contenteditable>Tap to add an event description</span>
-            </td>
-            <td class="save">Save</td>
+          <td class="time">12pm</td>
+          <td class="description" id="12pm event" rows="3">
+            <span class="input" role="textbox" contenteditable>Tap to add an event description</span>
+          </td>
+          <td class="save">
+            <button class="btn saveBtn col-2 col-md-1" aria-label="save">
+              <i class="fas fa-save" aria-hidden="true"></i>
+            </button>
+          </td>
         </tr>
-        <tr id="1pm" class="row">
-            <td class="time">&nbsp;&nbsp;1pm</td>
-            <td class="description" id="1pm event" rows="3">
-              <span class="input" role="textbox" contenteditable>Tap to add an event description</span>
-            </td>
-            <td class="save">Save</td>
+        <tr id="13pm" class="row">
+          <td class="time">&nbsp;&nbsp;1pm</td>
+          <td class="description" id="1pm event" rows="3">
+            <span class="input" role="textbox" contenteditable>Tap to add an event description</span>
+          </td>
+          <td class="save">
+            <button class="btn saveBtn col-2 col-md-1" aria-label="save">
+              <i class="fas fa-save" aria-hidden="true"></i>
+            </button>
+          </td>
         </tr>
-        <tr id="2pm" class="row">
-            <td class="time">&nbsp;&nbsp;2pm</td>
-            <td class="description" id="2pm event" rows="3">
-              <span class="input" role="textbox" contenteditable>Tap to add an event description</span>
-            </td>
-            <td class="save">Save</td>
+        <tr id="14pm" class="row">
+          <td class="time">&nbsp;&nbsp;2pm</td>
+          <td class="description" id="2pm event" rows="3">
+            <span class="input" role="textbox" contenteditable>Tap to add an event description</span>
+          </td>
+          <td class="save">
+            <button class="btn saveBtn col-2 col-md-1" aria-label="save">
+              <i class="fas fa-save" aria-hidden="true"></i>
+            </button>
+          </td>
         </tr>
-        <tr id="3pm" class="row">
-            <td class="time">&nbsp;&nbsp;3pm</td>
-            <td class="description" id="3pm event" rows="3">
-              <span class="input" role="textbox" contenteditable>Tap to add an event description</span>
-            </td>
-            <td class="save">Save</td>
+        <tr id="15pm" class="row">
+          <td class="time">&nbsp;&nbsp;3pm</td>
+          <td class="description" id="3pm event" rows="3">
+            <span class="input" role="textbox" contenteditable>Tap to add an event description</span>
+          </td>
+          <td class="save">
+            <button class="btn saveBtn col-2 col-md-1" aria-label="save">
+              <i class="fas fa-save" aria-hidden="true"></i>
+            </button>
+          </td>
         </tr>
-        <tr id="4pm" class="row">
-            <td class="time">&nbsp;&nbsp;4pm</td>
-            <td class="description" id="4pm event">
-              <span class="input" role="textbox" contenteditable>Tap to add an event description</span>
-            </td>
-            <td class="save">Save</td>
+        <tr id="16pm" class="row">
+          <td class="time">&nbsp;&nbsp;4pm</td>
+          <td class="description" id="4pm event">
+            <span class="input" role="textbox" contenteditable>Tap to add an event description</span>
+          </td>
+          <td class="save">
+            <button class="btn saveBtn col-2 col-md-1" aria-label="save">
+              <i class="fas fa-save" aria-hidden="true"></i>
+            </button>
+          </td>
         </tr>
-        <tr id="5pm" class="row">
-            <td class="time">&nbsp;&nbsp;5pm</td>
-            <td class="description" id="5pm event" rows="3">
-              <span class="input" role="textbox" contenteditable>Tap to add an event description</span>
-            </td>
-            <td class="save">Save</td>
+        <tr id="17pm" class="row">
+          <td class="time">&nbsp;&nbsp;5pm</td>
+          <td class="description" id="5pm event" rows="3">
+            <span class="input" role="textbox" contenteditable>Tap to add an event description</span>
+          </td>
+          <td class="save">
+            <button class="btn saveBtn col-2 col-md-1" aria-label="save">
+              <i class="fas fa-save" aria-hidden="true"></i>
+            </button>
+          </td>
         </tr>
       </table>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>

@@ -2,7 +2,7 @@
 // the code isn't run until the browser has finished rendering all the elements
 // in the html.
 
-const now = dayjs().format('dddd, MMMM DD-YYYY');
+const now = dayjs().format('dddd, MMMM DD YYYY');
 $(currentDay).html(now);
 
 $(document).ready(function () {
@@ -58,27 +58,18 @@ $(".row").each(function() {
     let rowId = $(this).attr("id");
     let hour = rowId.replace(/\D/g, '');
     console.log(hour);
+
     let saveBtn = $(this).find(".saveBtn");
     saveBtn.click(function() {
         let userInput = eventRow.text().trim();
-        localStorage.setItem(`event-${hour}`, userInput);
-    });
-    saveBtn.click(function() {
-        const lineBreak = document.createElement("br");
-        eventRow.append(lineBreak);
-    });
-    
-    //why isn't this function working to create a neweform element after the first one is saved?
-    saveBtn.click(function() {
-        const newEvent = document.createElement("span");
-        newEvent.setAttribute("class", "input");
-        newEvent.setAttribute("role", "textbox");
-        newEvent.setAttribute("contenteditable", "true");
-        newEvent.innerHTML = "Add/Change Event";
-        eventRow.parent().append(newEvent);
-        });
+        if (userInput === ""){
 
-    });
+                userInput.html("Add/Change Event");
+        };
+        localStorage.setItem(`event-${hour}`, userInput);
+});
+
+});
 
 });
 
